@@ -6,7 +6,7 @@
 
     <LoadingSpinner v-if="loading" />
     <p v-if="error" class="error">{{ error }}</p>
-    <p v-else-if="filteredUsers.length === 0">No users found.</p>
+    <p v-else-if="!loading && filteredUsers.length === 0">No users found.</p>
     <div v-else class="user-list">
       <UserCard v-for="user in filteredUsers" :key="user.id" :user="user" />
     </div>
