@@ -1,5 +1,20 @@
 # simple-vue-app
 
+
+## Tools used
+
+``` Axios for call handling
+```
+
+``` Vue Router for routing and viewing user details
+```
+
+``` The simplicity of the app calls for the in-component of the call handling by axios.
+
+
+
+
+
 ## Project setup
 ```
 npm install
