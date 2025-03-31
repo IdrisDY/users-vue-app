@@ -1,39 +1,42 @@
-# simple-vue-app
+Simple Vue App
+A lightweight Vue 2 application that fetches and displays users from JSONPlaceholder. The app includes API call handling, user search functionality, and routing for viewing user details.
 
+🚀 Features
+✅ Fetch users from JSONPlaceholder using Axios
+✅ Display users in a list with a search bar
+✅ View individual user details using Vue Router
+✅ Handle API loading & errors gracefully
 
-## Tools used
+🛠 Tools Used
+Vue 2 - Frontend framework
 
-``` Axios for call handling
-```
+Vue Router - Client-side navigation
 
-``` Vue Router for routing and viewing user details
-```
+Axios - API call handling
 
-``` The simplicity of the app calls for the in-component of the call handling by axios.
+The simplicity of this app allows for in-component API handling using Axios.
 
-
-
-
-
-## Project setup
-```
+📦 Project Setup
+1️⃣ Install Dependencies
+sh
+Copy
+Edit
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
+2️⃣ Run the Development Server
+sh
+Copy
+Edit
 npm run serve
-```
-
-### Compiles and minifies for production
-```
+3️⃣ Build for Production
+sh
+Copy
+Edit
 npm run build
-```
-
-### Lints and fixes files
-```
+4️⃣ Lint and Fix Files
+sh
+Copy
+Edit
 npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+⚙️ Configuration
+For advanced configurations, refer to the official Vue CLI documentation:
+Configuration Reference.
